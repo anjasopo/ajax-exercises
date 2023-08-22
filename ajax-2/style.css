@@ -1,0 +1,54 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.grid-container > div {
+  padding: 20px;
+  margin: 10px;
+
+  text-align: center;
+}
+
+button {
+  background-color: #f5df92;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+button:hover {
+  background-color: #e5cf7a;
+}
+
+button:active {
+  background-color: #d5bf6a;
+}
+
+.grass {
+  background-color: #7ac74c;
+}
+.fire {
+  background-color: #ee8130;
+}
+.water {
+  background-color: #6390f0;
+}
+.normal {
+  background-color: #a8a77a;
+}
+.bug {
+  background-color: #a6b91a;
+}
+.poison {
+  background-color: #a33ea1;
+}
+.electric {
+  background-color: #f7d02c;
+}
+.ground {
+  background-color: #e2bf65;
+}

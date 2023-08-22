@@ -1,0 +1,23 @@
+.grid-container {
+   display: grid;
+   margin-top: 20px;
+}
+
+#pokemon {
+   max-width: 150px;
+   text-align: center;
+   background-color: #E7C859;
+}
+
+button {
+   background-color: #F5DF92;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+button span {
+   color: #333;
+}
